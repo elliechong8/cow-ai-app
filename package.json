@@ -1,0 +1,15 @@
+{
+  "name": "cow-ai-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Labeling, QA and computer vision tools for dairy herds",
+  "type": "module",
+  "scripts": {
+    "dev": "vite apps/web --port 3000 --open",
+    "build": "vite build apps/web --outDir ../../dist --emptyOutDir",
+    "preview": "vite preview apps/web --outDir ../../dist --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
